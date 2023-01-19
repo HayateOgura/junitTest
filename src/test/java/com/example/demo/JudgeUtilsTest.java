@@ -218,12 +218,12 @@ class JudgeUtilsTest {
 		mockTime.tearDown();
 	}
 
-
+	@Test
 	public void testIsRegisterdAge_16歳_プレイ不可() {
 		// 事前処理(Mock)
 		Calendar cal = Calendar.getInstance();
 		cal.clear();
-		cal.set(Calendar.YEAR, 2015);
+		cal.set(Calendar.YEAR, 2016);
 		cal.set(Calendar.MONTH, Calendar.APRIL);
 		cal.set(Calendar.DAY_OF_MONTH, 01);
 		Date date = cal.getTime();
