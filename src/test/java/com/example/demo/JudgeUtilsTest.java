@@ -217,7 +217,7 @@ class JudgeUtilsTest {
 		assertTrue(actual);
 		mockTime.tearDown();
 	}
-}
+
 
 public void testIsRegisterdAge_16歳_プレイ不可() {
 	// 事前処理(Mock)
@@ -243,5 +243,5 @@ public void testIsRegisterdAge_16歳_プレイ不可() {
 	//結果
 	assertFalse(actual);
 	mockTime.tearDown();
-}
+	}
 }
